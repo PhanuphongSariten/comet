@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "191053068343",
+    "project_id": "comet-10f51",
+    "storage_bucket": "comet-10f51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191053068343:android:bcec25175d47ad3ce1e7b2",
+        "android_client_info": {
+          "package_name": "com.example.comet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191053068343-973cii232pebtrmmncc7h1rg96abk8i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeIIejsZAKXoUyviu8QX2LIqSJeYFVWus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191053068343-973cii232pebtrmmncc7h1rg96abk8i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
