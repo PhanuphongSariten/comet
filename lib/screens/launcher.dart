@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'shop_screen.dart';
 import 'profile_screen.dart';
 import 'rank_screen.dart';
+import 'package:comet/constants.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
 
 /// This is the stateful widget that the main application instantiates.
 class Launcher extends StatefulWidget {
@@ -33,7 +35,7 @@ class _LauncherState extends State<Launcher> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BottomNavigationBar Sample'),
+        title: Icon(Icons.school),
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
@@ -50,15 +52,15 @@ class _LauncherState extends State<Launcher> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.school),
-            label: 'School',
+            label: 'Rank',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
-            label: 'favorite',
+            label: 'Shop',
           ),
         ],
         currentIndex: _selectedIndex,
-        selectedItemColor: Colors.amber[800],
+        selectedItemColor: primaryColor,
         onTap: _onItemTapped,
       ),
     );

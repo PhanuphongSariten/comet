@@ -4,9 +4,9 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
-          Text('Profile'),
+      body: Row(
+        children: <Widget>[
+          Text('Prof'),
         ],
       ),
     );

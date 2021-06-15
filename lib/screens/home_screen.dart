@@ -5,8 +5,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [
-          Text('Home'),
+        children: <Widget>[
+          Text('Homeada'),
         ],
       ),
     );
