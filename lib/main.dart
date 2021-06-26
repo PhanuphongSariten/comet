@@ -1,10 +1,7 @@
+import 'package:comet/screens/welcome_screen.dart';
 import 'package:flutter/material.dart';
-import 'screens/launcher.dart';
-import 'screens/profile_screen.dart';
-import 'screens/home_screen.dart';
 import 'theme.dart';
-import 'package:line_icons/line_icon.dart';
-import 'package:line_icons/line_icons.dart';
+import 'screens/';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ProfileScreen(),
+      home: WelcomeScreen(),
     );
   }
 }

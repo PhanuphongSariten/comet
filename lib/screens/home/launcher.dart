@@ -1,4 +1,4 @@
-import 'package:comet/screens/home_screen.dart';
+import 'package:comet/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'shop_screen.dart';
 import 'profile_screen.dart';
